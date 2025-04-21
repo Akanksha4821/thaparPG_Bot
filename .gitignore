@@ -127,14 +127,14 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# Exclude ALL virtual environments EXCEPT ThaparEnv
 .env
 .venv
-env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+!ThaparEnv/
 
 # Spyder project settings
 .spyderproject
